@@ -12,19 +12,17 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-       /* public double sinFisinDelta;
-        public double lambda; */
-        
-       
+
         public Form1()
         {
-          /*  double pi = 3.14, delta = 0.79, fi = 0.525, c = 27 * 10 * 10 * 10, q = 25.5 * 10 * 10 * 10, bg = 0.3, lg = 0.45, b = 0.68, l = 1.0, h0 = 0.25,
-            rs = 360000 * 10 * 10 * 10, rb = 8500 * 10 * 10 * 10, rbt = 750 * 10 * 10 * 10, y = 17 * 10 * 10 * 10, y1 = 17 * 10 * 10 * 10; */
-           IntermediateValues.sinFisinDelta = Math.Sin(Variables.delta) / Math.Sin(Variables.fi)/2;
-           IntermediateValues.lambda = Variables.pi - Variables.delta - IntermediateValues.sinFisinDelta;
-            
-          /*  lambda = pi - delta - Math.Asin(Math.Sin(delta) / Math.Sin(fi))/ 2;
-            test.Text = Convert.ToString(lambda);*/
+          IntermediateValuesOfFormulas.lambda = Math.Round((Variables.pi - Variables.delta - Math.Sin(Variables.delta) / Math.Sin(Variables.fi) / 2),2); /* 1,64 */
+          Variables.alpha1 = Math.Round(2 * IntermediateValuesOfFormulas.lambda + Variables.fi,3); /* 3,805 */
+          Variables.alpha2 = Math.Round ( 2 * IntermediateValuesOfFormulas.lambda - Variables.fi,3); /* 2,755 */
+          IntermediateValuesOfFormulas.mi0 = Math.Round(( 1 + Math.Sin(Variables.alpha0)) / Math.Cos(Variables.alpha0),3); /* 1,735 */
+          IntermediateValuesOfFormulas.mi1 = Math.Round((1 + Math.Sin(Variables.alpha1)) / Math.Cos(Variables.alpha1), 3); /* -0,488 */
+          IntermediateValuesOfFormulas.mi2 = Math.Round((1 + Math.Sin(Variables.alpha2)) / Math.Cos(Variables.alpha2), 3); /* -1,487 */
+          IntermediateValuesOfFormulas.bigE = Math.Round(Math.Pow(Variables.e, IntermediateValuesOfFormulas.lambda * Math.Tan(Variables.fi)),3); /* 2,585 */
+          
 
             InitializeComponent();
         }
@@ -32,7 +30,8 @@ namespace WindowsFormsApp1
         
         private void Form1_Load(object sender, EventArgs e)
         {
-            test.Text = Convert.ToString(IntermediateValues.lambda);
+            /*  test.Text = Convert.ToString(Math.Round(IntermediateValuesOfFormulas.lambda,2)); */
+            test.Text = Convert.ToString(IntermediateValuesOfFormulas.bigE);
         }
 
         private void test_Click(object sender, EventArgs e)
