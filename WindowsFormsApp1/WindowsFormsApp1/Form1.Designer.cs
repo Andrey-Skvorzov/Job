@@ -34,7 +34,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.secondAnswer = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.test = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -92,22 +91,11 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Итоговое значение Pult:";
             // 
-            // test
-            // 
-            this.test.AutoSize = true;
-            this.test.Location = new System.Drawing.Point(365, 329);
-            this.test.Name = "test";
-            this.test.Size = new System.Drawing.Size(35, 13);
-            this.test.TabIndex = 7;
-            this.test.Text = "label5";
-            this.test.Click += new System.EventHandler(this.test_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.test);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.secondAnswer);
             this.Controls.Add(this.label3);
@@ -130,7 +118,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label secondAnswer;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label test;
     }
 }
 
