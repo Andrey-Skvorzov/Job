@@ -9,3 +9,4 @@ C:\Users\Скворцов\Desktop\Job\WindowsFormsApp1\WindowsFormsApp1\obj\Debu
 C:\Users\Скворцов\Desktop\Job\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\Скворцов\Desktop\Job\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Скворцов\Desktop\Job\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Скворцов\Desktop\Job\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
