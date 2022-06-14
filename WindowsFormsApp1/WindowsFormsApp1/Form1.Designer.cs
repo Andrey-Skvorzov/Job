@@ -48,6 +48,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -63,6 +64,8 @@
             this.epselentLInput = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+=======
+>>>>>>> a906355eb71fdb5f3dd1bb15b0f85b80b6540088
             this.SuspendLayout();
             // 
             // dInput
@@ -216,6 +219,7 @@
             this.label4.TabIndex = 19;
             this.label4.Text = "Удельное сцепление (Па)";
             // 
+<<<<<<< HEAD
             // label5
             // 
             this.label5.AutoSize = true;
@@ -349,10 +353,13 @@
             this.label17.TabIndex = 34;
             this.label17.Text = "EpselentL";
             // 
+=======
+>>>>>>> a906355eb71fdb5f3dd1bb15b0f85b80b6540088
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(556, 571);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
@@ -369,6 +376,9 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
+=======
+            this.ClientSize = new System.Drawing.Size(800, 450);
+>>>>>>> a906355eb71fdb5f3dd1bb15b0f85b80b6540088
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -417,6 +427,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+<<<<<<< HEAD
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
@@ -433,6 +444,8 @@
         private System.Windows.Forms.TextBox epselentLInput;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+=======
+>>>>>>> a906355eb71fdb5f3dd1bb15b0f85b80b6540088
     }
 }
 
